@@ -43,3 +43,19 @@ section {
         }
     }
     
+.about-me .container .about-me-container {
+    display: flex;
+    justify-content: center;
+        img {
+        width: 30%;
+        height: 30%;
+        }
+        p {
+        padding: 0 6em;
+        margin: 0;
+        }
+}
+
+.bold {
+    font-weight: bold;
+}
