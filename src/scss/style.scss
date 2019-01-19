@@ -1,11 +1,20 @@
+@import 'fonts';
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: 'Donegal+One', sans-serif;
+    font-family: $font_paragraphs, sans-serif;
     font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: $font_headings, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 section {
@@ -35,11 +44,7 @@ section {
 .process .container .container2 {
         display: flex;   
         .process-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 1em;
+            margin: 0 1em;
         }
     }
 
@@ -114,7 +119,7 @@ section {
         }
         p {
         margin: 0;
-        padding-left: 4em;
+        padding-left: 8em;
         }
 }
 
