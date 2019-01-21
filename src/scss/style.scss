@@ -6,6 +6,7 @@
 @import 'find_me';
 @import 'contact_me';
 @import 'greeting';
+@import 'nav';
 
 * {
     box-sizing: border-box;
@@ -40,15 +41,6 @@ section {
     justify-content: center;
     align-items: center;
     padding: 2em;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 0 0.5em 0;
-    a {
-        padding: 15px 50px;    
-    }
 }
 
 .container {
