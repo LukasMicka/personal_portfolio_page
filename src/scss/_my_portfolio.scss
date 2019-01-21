@@ -1,0 +1,17 @@
+.portfolio {
+    background-color: $primary-color;
+}
+
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 230px; /*je nutná výška?*/
+    > div {
+        width: 300px;    
+        height: 100px;
+        border: 1px solid black;
+    }
+}

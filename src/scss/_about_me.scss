@@ -1,0 +1,12 @@
+.about-me .container .about-me-container {
+    display: flex;
+    justify-content: space-between;
+        img {
+        width: 30%;
+        height: 30%;
+        }
+        p {
+        margin: 0;
+        padding-left: 8em;
+        }
+}

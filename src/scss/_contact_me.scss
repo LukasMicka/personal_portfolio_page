@@ -1,0 +1,22 @@
+input {
+    padding: 1em 0.5em;
+}
+
+input[name="lname"], input[type="tel"] {
+    position: absolute;
+    right: 0px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 25em;
+    height: 2em;
+}
+
+textarea {
+    width: 100%;
+    height: 6em;
+}
+
+input[type="submit"] {
+    width: 100%;
+}
