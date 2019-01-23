@@ -4,7 +4,15 @@
     padding: 0 0 0.5em 0;
     a {
         padding: 15px 50px;
+        color: #2e2e2e;
+        letter-spacing: 1px;
     }
+    a:link {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+      }
 }
         
 @media all and (max-width: 830px) {

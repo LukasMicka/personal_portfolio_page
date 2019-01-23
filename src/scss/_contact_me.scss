@@ -1,5 +1,14 @@
+form {
+    position: relative;
+}
+
 input {
     padding: 1em 0.5em;
+}
+
+input[name="fname"], input[type="email"] {
+    position: absolute;
+    left: 0px;
 }
 
 input[name="lname"], input[type="tel"] {
