@@ -54,6 +54,7 @@ section {
     background-image: url(/img/sushobhan-badhai-372964-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
     color: white;
     height: 550px;
     opacity: 0.9;
@@ -71,5 +72,11 @@ section {
         display: flex;   
         .process-container {
             margin: 0 1em;
+    }   
+}
+
+@media all and (max-width: 830px) {
+    .process .container .container2 {
+        flex-direction: column;
     }
 }

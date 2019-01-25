@@ -17,6 +17,6 @@
         
 @media all and (max-width: 830px) {
     .nav-menu {
-        justify-content: space-between;
+        flex-direction: column;
     }
 }
