@@ -1,31 +1,40 @@
 form {
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 input {
     padding: 1em 0.5em;
 }
 
-input[name="fname"], input[type="email"] {
-    position: absolute;
-    left: 0px;
+.name {
+    display: flex;
+    justify-content: space-between;
 }
 
-input[name="lname"], input[type="tel"] {
-    position: absolute;
-    right: 0px;
+.email_tel {
+    display: flex;
+    justify-content: space-between;
 }
 
-input[type="text"], input[type="email"], input[type="tel"] {
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
     width: 25em;
     height: 2em;
 }
 
 textarea {
-    width: 100%;
     height: 6em;
 }
 
-input[type="submit"] {
+@media all and (max-width: 420px) {
+    form > div {
+        flex-direction: column;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
     width: 100%;
+    }   
 }
