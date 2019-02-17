@@ -1,12 +1,15 @@
-.nav-menu {
+.nav-menu ul {
     display: flex;
     justify-content: flex-end;
     padding: 0 0 0.5em 0;
-    a {
+    list-style-type: none;
+    li > a {
+        display: inline;
         padding: 15px 50px;
         color: #2e2e2e;
-        letter-spacing: 1px;
+        letter-spacing: 1px;        
     }
+    li,
     a:link {
         text-decoration: none;
     }
@@ -16,7 +19,7 @@
 }
         
 @media all and (max-width: 850px) {
-    .nav-menu {
+    .nav-menu ul {
         font-size: 14px;
         flex-wrap: wrap;
         justify-content: space-between;

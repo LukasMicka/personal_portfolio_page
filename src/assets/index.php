@@ -19,12 +19,14 @@ require "mailer.php";
 
 <body>
   <header>
-    <nav class="nav-menu">
-      <a href="/home/">HOME</a>
-      <a href="/skills/">SKILLS</a>
-      <a href="/portfolio/">PORTFOLIO</a>
-      <a href="/about/">ABOUT</a>
-      <a href="/contact/">CONTACT</a>
+    <nav class="nav-menu" id="my_home">
+      <ul>
+        <li><a href="#my_home">HOME</a></li>  
+        <li><a href="#my_skills">SKILLS</a></li> 
+        <li><a href="#my_portfolio">PORTFOLIO</a></li>
+        <li><a href="#my_about">ABOUT</a></li>
+        <li><a href="#my_contact">CONTACT</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -76,7 +78,7 @@ require "mailer.php";
 
   <section class="skills">
     <div class="container">
-      <h3>MY SKILLS</h3>
+      <h3 id="my_skills">MY SKILLS</h3>
 
       <div class="HTML">
         <div class="item"><span>HTML</span></div>
@@ -125,7 +127,7 @@ require "mailer.php";
 
   <section class="portfolio">
     <div class="container">
-      <h3>MY PORTFOLIO</h3>
+      <h3 id="my_portfolio">MY PORTFOLIO</h3>
       <div class="portfolio-container">
         <div>
           <img src="" alt="Project">
@@ -157,7 +159,7 @@ require "mailer.php";
 
   <section class="about-me">
     <div class="container">
-      <h3>ABOUT ME</h3>
+      <h3 id="my_about">ABOUT ME</h3>
       <div class="about-me-container">
         <img src="/img/me.jpg" alt="Lukas">
         <p>My name is Lukáš Mička. I'm a full-stack web developer
@@ -173,7 +175,7 @@ require "mailer.php";
       <div class="container">
         <h3>FIND ME HERE</h3>
         <div class="logos">
-          <img src="/img/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="GitHub">
+          <a href="https://github.com/LukasMicka" target="_blank"><img src="/img/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="GitHub"></a>
           <img src="/img/GlyphLogo_May2016_Onlinev2/glyph-logo_May2016_64x64.png" alt="Instagram">
         </div>
       </div>
@@ -181,7 +183,7 @@ require "mailer.php";
 
     <section class="contact-me">
       <div class="container">
-        <h3>CONTACT ME</h3>
+        <h3 id="my_contact">CONTACT ME</h3>
 
         <form action="" method="post">
 
