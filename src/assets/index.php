@@ -200,6 +200,8 @@ require "mailer.php";
 
           <input type="submit" name="submit" value="Send my message">
 
+          <?= "<script type='text/javascript'>alert('$message');</script>"; ?>
+
         </form>
       </div>
     </section>
