@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hey, I'm Lukas.</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Barlow|Cairo|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
@@ -175,18 +176,24 @@
     <section class="contact-me">
       <div class="container">
         <h3>CONTACT ME</h3>
-        <form action="" method="POST">
+
+        <form action="" method="post">
+
           <div class="name">
             <input type="text" name="fname" placeholder="First Name">
             <input type="text" name="lname" placeholder="Last Name">
           </div>
+
           <div class="email_tel">
             <input type="email" name="email" placeholder="Email">
             <input type="tel" name="phone" placeholder="Phone">
           </div>
-          <textarea>
+
+          <textarea name="msg">
           </textarea>
-          <input type="submit" value="Send my message">
+
+          <input type="submit" name="submit" value="Send my message">
+
         </form>
       </div>
     </section>
@@ -198,6 +205,9 @@
     </section>
 
   </footer>
+
+  <script src="index.js">
+  </script>
 
 </body>
 
