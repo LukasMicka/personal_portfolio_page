@@ -1,3 +1,9 @@
+<?php
+
+require "mailer.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
