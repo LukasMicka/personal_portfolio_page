@@ -13,7 +13,7 @@ if(isset($_POST["submit"])) {
         $mail->Host = 'smtp.seznam.cz'; //smtp2.example.com'; // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'lukas.micka@seznam.cz';            // SMTP username
-        $mail->Password = 'lukasenko14';                      // SMTP password
+        $mail->Password = '*******';                      // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = "25";                                    // TCP port to connect to
     
